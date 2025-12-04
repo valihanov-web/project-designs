@@ -99,7 +99,7 @@ main{
     padding: 15px 25px;
     transition: 1s;
 }
-
+/* 2-qator boshlanishi */
 
 .logos{
    width: 100%;
@@ -111,22 +111,89 @@ main{
    line-height: 30px;
 }
 
+.logos1 img{
+    animation: img1 6s;
+    animation-delay: 4s;
+}
+ @keyframes img1 {
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+    }100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+ .logos h4{
+    animation: h4 3s;
+    animation-delay: 4s;
+ }
+ @keyframes h4 {
+    0%{
+        transform: translateY(-200px);
+        opacity: 0;
+    }100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.logos h1{
+    padding-top: 20px;
+    animation: h11 4s;
+    animation-delay: 4s;
+}
+ @keyframes h11 {
+    0%{
+        transform: translateX(200px);
+        opacity: 0;
+    }100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 .logos p{
     padding-bottom: 100px;
     padding-top: 40px;
+     animation: pi 4s;
+    animation-delay: 4s;
 }
-
+ @keyframes pi {
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 .logos-img{
     display: flex;
     flex-direction: row;
     gap: 100px;
+     animation: img 4s;
+    animation-delay: 4s;
+}
+ @keyframes img {
+    0%{
+        transform: translateY(200px);
+        opacity: 0;
+    }100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 .logos-img img{
     padding-bottom: 70px;
 }
+
+
 .btn button{
     background: transparent;
     padding: 10px 20px;
     border: 2px solid black;
     color: black;
+}
+.btn button:hover{
+    padding: 15px 25px;
+    transition: 1s;
 }

@@ -109,6 +109,8 @@ main{
    justify-content: center;
    gap: 100px;
    line-height: 30px;
+    margin-bottom: 150px ;
+
 }
 
 .logos1 img{
@@ -172,6 +174,7 @@ main{
     gap: 100px;
      animation: img 4s;
     animation-delay: 4s;
+
 }
  @keyframes img {
     0%{
@@ -196,4 +199,93 @@ main{
 .btn button:hover{
     padding: 15px 25px;
     transition: 1s;
+}
+
+/* 3-qator boshnalishi */
+.box{
+    width: 100%;
+    height: 100vh;
+    gap: 100px;
+    padding: 50px 150px;
+}
+
+.box0{
+    display:flex ;
+    align-items: start;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 100px;
+}
+
+.box1{
+    display: flex;
+    padding-left: 60px;
+    padding-bottom: 80px;
+    animation: BIRINCHI 3s;
+    animation-delay: 5s;
+}
+ @keyframes BIRINCHI {
+    0%{
+        transform: translateX(200px);
+        opacity: 0;
+    }100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.boxc h4{
+    display: flex;
+    padding-left: 70px;
+    padding-bottom: 10px;
+        animation: BIRINCHI 3s;
+    animation-delay: 5s;
+}
+
+.btns2{
+    padding-left: 500px;
+}
+ .btns2 button{
+    background: transparent;
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: black;
+ }
+
+ .btns2 button:hover{
+    padding: 15px 25px;
+    transition: 1s;
+ }
+ .box0{
+     animation: box0 3s;
+    animation-delay: 6s;
+ }
+  @keyframes box0 {
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+ .box01{
+    display:flex ;
+    align-items: start;
+    justify-content: center;
+    gap: 150px;
+     animation: box01 3s;
+    animation-delay: 7s;
+}
+  @keyframes box01 {
+    0%{
+        transform: translateX(200px);
+        opacity: 0;
+    }100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.box3{
+    line-height: 30px;
 }
